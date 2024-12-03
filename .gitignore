@@ -1,0 +1,37 @@
+# Ignore arquivos e pastas do ambiente virtual
+venv/
+.env/
+
+# Ignore arquivos de banco de dados local
+*.db
+*.sqlite3
+
+# Ignore caches do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore configurações de IDEs/editores de texto
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de pytest
+*.pytest_cache/
+
+# Ignore arquivos gerados por dependências
+*.egg-info/
+dist/
+build/
+
+# Ignore outros arquivos e pastas temporárias
+*.bak
+*.tmp
